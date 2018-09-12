@@ -61,13 +61,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\asf.cs" />
-    <Compile Include="Assets\Controller.cs" />
+    <Compile Include="Assets\Score.cs" />
     <Compile Include="Assets\Scrips\CameraFollow.cs" />
+    <Compile Include="Assets\Scrips\Controller.cs" />
     <Compile Include="Assets\Scrips\GameRules.cs" />
     <Compile Include="Assets\Scrips\LevelGenerator.cs" />
-    <Compile Include="Assets\Scrips\PlatformController.cs" />
-    <Compile Include="Assets\Scrips\PlayerController.cs" />
+    <Compile Include="Assets\Scrips\Platforms\PlatformController.cs" />
+    <Compile Include="Assets\Scrips\Platforms\PlatformFalse.cs" />
+    <Compile Include="Assets\Scrips\Player\PlayerAnimation.cs" />
+    <Compile Include="Assets\Scrips\Player\PlayerController.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

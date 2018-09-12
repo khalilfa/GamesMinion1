@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class asf : MonoBehaviour {
+public class PlayerAnimation : MonoBehaviour {
 
-	// Use this for initialization
+    private Animator animator;
+
 	void Start () {
-        print(this.name);
+        animator = GetComponent<Animator>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
 	}
